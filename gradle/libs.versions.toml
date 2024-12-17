@@ -1,0 +1,28 @@
+[versions]
+creative = "1.7.3"
+adventure = "4.17.0"
+annotations = "24.1.0"
+mocha = "3.0.0"
+
+# reader-blockbench
+gson = "2.11.0"
+
+# runtime-minestom
+minestom = "d955f51899"
+
+[libraries]
+creative-api = { group = "team.unnamed", name = "creative-api", version.ref =  "creative" }
+creative-server = { group = "team.unnamed", name = "creative-server", version.ref = "creative" }
+creative-serializer-minecraft = { group = "team.unnamed", name = "creative-serializer-minecraft", version.ref = "creative" }
+
+mocha = { group = "team.unnamed", name = "mocha", version.ref = "mocha" }
+
+adventure-api = { group = "net.kyori", name = "adventure-api", version.ref = "adventure" }
+adventure-nbt = { group = "net.kyori", name = "adventure-nbt", version.ref = "adventure" }
+annotations = { group = "org.jetbrains", name = "annotations", version.ref = "annotations" }
+
+# reader-blockbench
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+# runtime-minestom
+minestom = { group = "net.minestom", name = "minestom-snapshots", version.ref = "minestom" }
